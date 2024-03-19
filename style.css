@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container > h1 {
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+  font-family: cursive;
+  font-size: 4rem;
+  background-color: beige;
+  margin: 2vmax 0;
+}
+
+.option {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: auto;
+}
+select {
+  /* border: 2px solid red; */
+  height: 2vmax;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(147, 147, 82);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1vmax;
+}
+
+button {
+  margin: 0 1vmax;
+  padding: 1vmax;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: cursive;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background-color: black;
+}
